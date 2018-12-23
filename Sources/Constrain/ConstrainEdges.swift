@@ -31,11 +31,10 @@ public func constrainEdges(
 public func constrainEdges(
     to: Any,
     _ insets: UIEdgeInsets = .zero,
-    priority: UILayoutPriority = .required,
-    isActive: Bool = true
+    priority: UILayoutPriority = .required
 ) -> (Any) -> Void {
 
     return { item in
-        _ = constrainEdges(of: item, to: to, insets, priority: priority, isActive: isActive)
+        _ = constrainEdges(of: item, to: to, insets, priority: priority)
     }
 }
