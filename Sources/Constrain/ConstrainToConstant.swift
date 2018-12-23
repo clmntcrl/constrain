@@ -6,24 +6,24 @@ import UIKit
 public func constrain(
     _ item: Any,
     _ attribute: NSLayoutConstraint.Attribute,
-    toConstant: CGFloat = 0,
+    _ relation: NSLayoutConstraint.Relation = .equal,
+    toConstant: CGFloat,
     multiplier: CGFloat = 1,
     priority: UILayoutPriority = .required,
     isActive: Bool = true
 ) -> NSLayoutConstraint {
 
-    let constraint = NSLayoutConstraint(
-        item: item,
-        attribute: attribute,
-        relatedBy: .equal,
-        toItem: .none,
-        attribute: attribute,
+    return constrain(
+        item,
+        attribute,
+        relation,
+        .none,
+        attribute,
+        constant: toConstant,
         multiplier: multiplier,
-        constant: toConstant
+        priority: priority,
+        isActive: isActive
     )
-    constraint.priority = priority
-    constraint.isActive = isActive
-    return constraint
 }
 
 // MARK: - Composable constrain to constant
@@ -31,7 +31,7 @@ public func constrain(
 public func constrain(
     _ attribute: NSLayoutConstraint.Attribute,
     _ relation: NSLayoutConstraint.Relation = .equal,
-    constant: CGFloat,
+    toConstant: CGFloat,
     multiplier: CGFloat = 1,
     priority: UILayoutPriority = .required
 ) -> (Any) -> Void {
@@ -41,7 +41,7 @@ public func constrain(
         relation,
         .none,
         attribute,
-        constant: constant,
+        constant: toConstant,
         multiplier: multiplier,
         priority: priority
     )
