@@ -3,156 +3,123 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"Constrain::ConstrainPackageTests::ProductTarget" /* ConstrainPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_33 /* Build configuration list for PBXAggregateTarget "ConstrainPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_36 /* PBXTargetDependency */,
-			);
-			name = ConstrainPackageTests;
-			productName = ConstrainPackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		FC27862021B83414002FFAB9 /* ConstrainToConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27861F21B83414002FFAB9 /* ConstrainToConstant.swift */; };
-		FC27862221B834B7002FFAB9 /* ConstrainEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27862121B834B7002FFAB9 /* ConstrainEdges.swift */; };
-		FC27862421B835F6002FFAB9 /* UseAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27862321B835F6002FFAB9 /* UseAutoLayout.swift */; };
-		OBJ_24 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Constrain.swift */; };
-		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_42 /* ConstrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ConstrainTests.swift */; };
-		OBJ_45 /* Constrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Constrain::Constrain::Product" /* Constrain.framework */; };
+		FC6F017721F8EA9E00E68ED7 /* Constrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6F016D21F8EA9E00E68ED7 /* Constrain.framework */; };
+		FC6F017C21F8EA9E00E68ED7 /* ConstrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F017B21F8EA9E00E68ED7 /* ConstrainTests.swift */; };
+		FC6F017E21F8EA9E00E68ED7 /* Constrain.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6F017021F8EA9E00E68ED7 /* Constrain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC6F018B21F8EAFC00E68ED7 /* ConstrainToConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F018721F8EAFA00E68ED7 /* ConstrainToConstant.swift */; };
+		FC6F018C21F8EAFC00E68ED7 /* ConstrainEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F018821F8EAFB00E68ED7 /* ConstrainEdges.swift */; };
+		FC6F018D21F8EAFC00E68ED7 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F018921F8EAFB00E68ED7 /* Constrain.swift */; };
+		FC6F018E21F8EAFC00E68ED7 /* UseAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F018A21F8EAFB00E68ED7 /* UseAutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC27861D21B83325002FFAB9 /* PBXContainerItemProxy */ = {
+		FC6F017821F8EA9E00E68ED7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
+			containerPortal = FC6F016421F8EA9E00E68ED7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = "Constrain::Constrain";
+			remoteGlobalIDString = FC6F016C21F8EA9E00E68ED7;
 			remoteInfo = Constrain;
-		};
-		FC27861E21B83325002FFAB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Constrain::ConstrainTests";
-			remoteInfo = ConstrainTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"Constrain::Constrain::Product" /* Constrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Constrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Constrain::ConstrainTests::Product" /* ConstrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ConstrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC27861F21B83414002FFAB9 /* ConstrainToConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrainToConstant.swift; sourceTree = "<group>"; };
-		FC27862121B834B7002FFAB9 /* ConstrainEdges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrainEdges.swift; sourceTree = "<group>"; };
-		FC27862321B835F6002FFAB9 /* UseAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseAutoLayout.swift; sourceTree = "<group>"; };
-		OBJ_11 /* Constrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constrain.swift; sourceTree = "<group>"; };
-		OBJ_14 /* ConstrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrainTests.swift; sourceTree = "<group>"; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_8 /* xcode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = xcode.xcconfig; sourceTree = "<group>"; };
+		FC6F016D21F8EA9E00E68ED7 /* Constrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Constrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6F017021F8EA9E00E68ED7 /* Constrain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constrain.h; sourceTree = "<group>"; };
+		FC6F017121F8EA9E00E68ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6F017621F8EA9E00E68ED7 /* ConstrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6F017B21F8EA9E00E68ED7 /* ConstrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrainTests.swift; sourceTree = "<group>"; };
+		FC6F017D21F8EA9E00E68ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6F018721F8EAFA00E68ED7 /* ConstrainToConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstrainToConstant.swift; sourceTree = "<group>"; };
+		FC6F018821F8EAFB00E68ED7 /* ConstrainEdges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstrainEdges.swift; sourceTree = "<group>"; };
+		FC6F018921F8EAFB00E68ED7 /* Constrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrain.swift; sourceTree = "<group>"; };
+		FC6F018A21F8EAFB00E68ED7 /* UseAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseAutoLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_25 /* Frameworks */ = {
+		FC6F016A21F8EA9E00E68ED7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_44 /* Frameworks */ = {
+		FC6F017321F8EA9E00E68ED7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
+			buildActionMask = 2147483647;
 			files = (
-				OBJ_45 /* Constrain.framework in Frameworks */,
+				FC6F017721F8EA9E00E68ED7 /* Constrain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_10 /* Constrain */ = {
+		FC6F016321F8EA9E00E68ED7 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* Constrain.swift */,
-				FC27862121B834B7002FFAB9 /* ConstrainEdges.swift */,
-				FC27861F21B83414002FFAB9 /* ConstrainToConstant.swift */,
-				FC27862321B835F6002FFAB9 /* UseAutoLayout.swift */,
+				FC6F016F21F8EA9E00E68ED7 /* Sources */,
+				FC6F017A21F8EA9E00E68ED7 /* Tests */,
+				FC6F016E21F8EA9E00E68ED7 /* Products */,
 			);
-			name = Constrain;
-			path = Sources/Constrain;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
-		OBJ_12 /* Tests */ = {
+		FC6F016E21F8EA9E00E68ED7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* ConstrainTests */,
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_13 /* ConstrainTests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_14 /* ConstrainTests.swift */,
-			);
-			name = ConstrainTests;
-			path = Tests/ConstrainTests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_16 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"Constrain::Constrain::Product" /* Constrain.framework */,
-				"Constrain::ConstrainTests::Product" /* ConstrainTests.xctest */,
+				FC6F016D21F8EA9E00E68ED7 /* Constrain.framework */,
+				FC6F017621F8EA9E00E68ED7 /* ConstrainTests.xctest */,
 			);
 			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		OBJ_5 /*  */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Configs */,
-				OBJ_9 /* Sources */,
-				OBJ_12 /* Tests */,
-				OBJ_16 /* Products */,
-			);
-			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_7 /* Configs */ = {
+		FC6F016F21F8EA9E00E68ED7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* xcode.xcconfig */,
+				FC6F017121F8EA9E00E68ED7 /* Info.plist */,
+				FC6F017021F8EA9E00E68ED7 /* Constrain.h */,
+				FC6F018921F8EAFB00E68ED7 /* Constrain.swift */,
+				FC6F018821F8EAFB00E68ED7 /* ConstrainEdges.swift */,
+				FC6F018721F8EAFA00E68ED7 /* ConstrainToConstant.swift */,
+				FC6F018A21F8EAFB00E68ED7 /* UseAutoLayout.swift */,
 			);
-			name = Configs;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		OBJ_9 /* Sources */ = {
+		FC6F017A21F8EA9E00E68ED7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_10 /* Constrain */,
+				FC6F017D21F8EA9E00E68ED7 /* Info.plist */,
+				FC6F017B21F8EA9E00E68ED7 /* ConstrainTests.swift */,
 			);
-			name = Sources;
-			sourceTree = SOURCE_ROOT;
+			path = Tests;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		FC6F016821F8EA9E00E68ED7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6F017E21F8EA9E00E68ED7 /* Constrain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		"Constrain::Constrain" /* Constrain */ = {
+		FC6F016C21F8EA9E00E68ED7 /* Constrain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_20 /* Build configuration list for PBXNativeTarget "Constrain" */;
+			buildConfigurationList = FC6F018121F8EA9E00E68ED7 /* Build configuration list for PBXNativeTarget "Constrain" */;
 			buildPhases = (
-				OBJ_23 /* Sources */,
-				OBJ_25 /* Frameworks */,
+				FC6F016821F8EA9E00E68ED7 /* Headers */,
+				FC6F016921F8EA9E00E68ED7 /* Sources */,
+				FC6F016A21F8EA9E00E68ED7 /* Frameworks */,
+				FC6F016B21F8EA9E00E68ED7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -160,331 +127,356 @@
 			);
 			name = Constrain;
 			productName = Constrain;
-			productReference = "Constrain::Constrain::Product" /* Constrain.framework */;
+			productReference = FC6F016D21F8EA9E00E68ED7 /* Constrain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"Constrain::ConstrainTests" /* ConstrainTests */ = {
+		FC6F017521F8EA9E00E68ED7 /* ConstrainTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_38 /* Build configuration list for PBXNativeTarget "ConstrainTests" */;
+			buildConfigurationList = FC6F018421F8EA9E00E68ED7 /* Build configuration list for PBXNativeTarget "ConstrainTests" */;
 			buildPhases = (
-				OBJ_41 /* Sources */,
-				OBJ_44 /* Frameworks */,
+				FC6F017221F8EA9E00E68ED7 /* Sources */,
+				FC6F017321F8EA9E00E68ED7 /* Frameworks */,
+				FC6F017421F8EA9E00E68ED7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_46 /* PBXTargetDependency */,
+				FC6F017921F8EA9E00E68ED7 /* PBXTargetDependency */,
 			);
 			name = ConstrainTests;
 			productName = ConstrainTests;
-			productReference = "Constrain::ConstrainTests::Product" /* ConstrainTests.xctest */;
+			productReference = FC6F017621F8EA9E00E68ED7 /* ConstrainTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		"Constrain::SwiftPMPackageDescription" /* ConstrainPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "ConstrainPackageDescription" */;
-			buildPhases = (
-				OBJ_30 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ConstrainPackageDescription;
-			productName = ConstrainPackageDescription;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		OBJ_1 /* Project object */ = {
+		FC6F016421F8EA9E00E68ED7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 9999;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = clmntcrl;
+				TargetAttributes = {
+					FC6F016C21F8EA9E00E68ED7 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					FC6F017521F8EA9E00E68ED7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Constrain" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = FC6F016721F8EA9E00E68ED7 /* Build configuration list for PBXProject "Constrain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_16 /* Products */;
+			mainGroup = FC6F016321F8EA9E00E68ED7;
+			productRefGroup = FC6F016E21F8EA9E00E68ED7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"Constrain::Constrain" /* Constrain */,
-				"Constrain::SwiftPMPackageDescription" /* ConstrainPackageDescription */,
-				"Constrain::ConstrainPackageTests::ProductTarget" /* ConstrainPackageTests */,
-				"Constrain::ConstrainTests" /* ConstrainTests */,
+				FC6F016C21F8EA9E00E68ED7 /* Constrain */,
+				FC6F017521F8EA9E00E68ED7 /* ConstrainTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		FC6F016B21F8EA9E00E68ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6F017421F8EA9E00E68ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_23 /* Sources */ = {
+		FC6F016921F8EA9E00E68ED7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
+			buildActionMask = 2147483647;
 			files = (
-				FC27862021B83414002FFAB9 /* ConstrainToConstant.swift in Sources */,
-				OBJ_24 /* Constrain.swift in Sources */,
-				FC27862421B835F6002FFAB9 /* UseAutoLayout.swift in Sources */,
-				FC27862221B834B7002FFAB9 /* ConstrainEdges.swift in Sources */,
+				FC6F018C21F8EAFC00E68ED7 /* ConstrainEdges.swift in Sources */,
+				FC6F018B21F8EAFC00E68ED7 /* ConstrainToConstant.swift in Sources */,
+				FC6F018E21F8EAFC00E68ED7 /* UseAutoLayout.swift in Sources */,
+				FC6F018D21F8EAFC00E68ED7 /* Constrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_30 /* Sources */ = {
+		FC6F017221F8EA9E00E68ED7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
+			buildActionMask = 2147483647;
 			files = (
-				OBJ_31 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_41 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_42 /* ConstrainTests.swift in Sources */,
+				FC6F017C21F8EA9E00E68ED7 /* ConstrainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_36 /* PBXTargetDependency */ = {
+		FC6F017921F8EA9E00E68ED7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Constrain::ConstrainTests" /* ConstrainTests */;
-			targetProxy = FC27861E21B83325002FFAB9 /* PBXContainerItemProxy */;
-		};
-		OBJ_46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Constrain::Constrain" /* Constrain */;
-			targetProxy = FC27861D21B83325002FFAB9 /* PBXContainerItemProxy */;
+			target = FC6F016C21F8EA9E00E68ED7 /* Constrain */;
+			targetProxy = FC6F017821F8EA9E00E68ED7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = OBJ_8 /* xcode.xcconfig */;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Constrain.xcodeproj/Constrain_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Constrain;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = Constrain;
-			};
-			name = Debug;
-		};
-		OBJ_22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = OBJ_8 /* xcode.xcconfig */;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Constrain.xcodeproj/Constrain_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Constrain;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = Constrain;
-			};
-			name = Release;
-		};
-		OBJ_28 /* Debug */ = {
+		FC6F017F21F8EA9E00E68ED7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		OBJ_29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		OBJ_3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = "-DXcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		OBJ_34 /* Debug */ = {
+		FC6F018021F8EA9E00E68ED7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = OBJ_8 /* xcode.xcconfig */;
-			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Constrain.xcodeproj/ConstrainTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = ConstrainTests;
-			};
-			name = Debug;
-		};
-		OBJ_4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_OPTIMIZATION_LEVEL = s;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_SWIFT_FLAGS = "-DXcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				USE_HEADERMAP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		OBJ_40 /* Release */ = {
+		FC6F018221F8EA9E00E68ED7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = OBJ_8 /* xcode.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W624386YMM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Constrain.xcodeproj/ConstrainTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.clmntcrl.Constrain;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGET_NAME = ConstrainTests;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6F018321F8EA9E00E68ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W624386YMM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.clmntcrl.Constrain;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC6F018521F8EA9E00E68ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W624386YMM;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.clmntcrl.ConstrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6F018621F8EA9E00E68ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W624386YMM;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.clmntcrl.ConstrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_2 /* Build configuration list for PBXProject "Constrain" */ = {
+		FC6F016721F8EA9E00E68ED7 /* Build configuration list for PBXProject "Constrain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_3 /* Debug */,
-				OBJ_4 /* Release */,
+				FC6F017F21F8EA9E00E68ED7 /* Debug */,
+				FC6F018021F8EA9E00E68ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_20 /* Build configuration list for PBXNativeTarget "Constrain" */ = {
+		FC6F018121F8EA9E00E68ED7 /* Build configuration list for PBXNativeTarget "Constrain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_21 /* Debug */,
-				OBJ_22 /* Release */,
+				FC6F018221F8EA9E00E68ED7 /* Debug */,
+				FC6F018321F8EA9E00E68ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_27 /* Build configuration list for PBXNativeTarget "ConstrainPackageDescription" */ = {
+		FC6F018421F8EA9E00E68ED7 /* Build configuration list for PBXNativeTarget "ConstrainTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_28 /* Debug */,
-				OBJ_29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_33 /* Build configuration list for PBXAggregateTarget "ConstrainPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_34 /* Debug */,
-				OBJ_35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_38 /* Build configuration list for PBXNativeTarget "ConstrainTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_39 /* Debug */,
-				OBJ_40 /* Release */,
+				FC6F018521F8EA9E00E68ED7 /* Debug */,
+				FC6F018621F8EA9E00E68ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = OBJ_1 /* Project object */;
+	rootObject = FC6F016421F8EA9E00E68ED7 /* Project object */;
 }
